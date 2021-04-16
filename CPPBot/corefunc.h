@@ -26,8 +26,8 @@
 
 using namespace std;
 
-string SERVER_HOST = "209.59.191.76";
-int SERVER_PORT = 17093;
+string SERVER_HOST = "213.179.209.168";
+int SERVER_PORT = 17196;
 
 /*********  hidden vars  ********/
 class GrowtopiaBot {
@@ -202,7 +202,7 @@ public:
 			exit(EXIT_FAILURE);
 		}
 		ENetAddress address;
-
+		client->usingNewPacket = true;
 		client->checksum = enet_crc32;
 		enet_host_compress_with_range_coder(client);
 		enet_address_set_host(&address, hostName.c_str());
