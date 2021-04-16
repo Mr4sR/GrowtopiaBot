@@ -29,7 +29,7 @@
 #include "utilsfunc.h"
 #include "corefunc.h"
 #include "userfunc.h"
-#include "enet/enet.h"
+#include "enet/include/enet.h"
 
 //#define WORLD_GO
 
